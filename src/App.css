@@ -1,0 +1,50 @@
+.App {max-width: 878px;
+  text-align: center;
+  padding: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+form{display: flex;
+  flex-direction:column;
+justify-content:center;}
+label { display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 0px;
+}
+input {border-radius: 8%;
+  border-width: 5px;
+}
+select{border-radius: 8%;
+  border-width: 5px;
+width: 178px;}
+option {font-size:40px ;
+  font-weight:400px; 
+}
+#submit{padding-top: 20px;
+height: 30px;
+width: 180px;}
